@@ -53,6 +53,6 @@ allprojects {
 app的build.gradle
 ```
 dependencies {
-	        compile 'com.github.Ccapton:EasyUpdateDemo:1.0'
+	       	   compile 'com.github.Ccapton:EasyUpdateDemo:1.1'
 	}
 ```
