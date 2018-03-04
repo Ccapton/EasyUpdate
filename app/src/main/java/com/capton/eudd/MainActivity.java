@@ -6,7 +6,6 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.blankj.utilcode.util.AppUtils;
 import com.capton.easyupdate.EasyUpdate;
 import com.capton.easyupdate.UpdateInfo;
 import com.capton.ep.EasyPermission;
@@ -38,14 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 EasyUpdate
                         .debug(true)
-                        .check(MainActivity.this, updateInfo, new EasyUpdate.CheckListener() {
-                            @Override
-                            public void handle(UpdateInfo updateInfo) {
-                                if (updateInfo.getVersionCode() > AppUtils.getAppVersionCode()){
-                                    EasyUpdate.download(MainActivity.this,updateInfo);
-                                }
-                            }
-                        });
+                        .check(MainActivity.this, updateInfo);
             }
         });
 

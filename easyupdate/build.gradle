@@ -30,9 +30,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    implementation project(':easypermission')
     compile 'com.lzy.net:okgo:3.0.4'
     compile 'com.blankj:utilcode:1.12.6'
-
+    compile 'com.github.Ccapton:EasyPermission:1.0'
     implementation project(':md5')
 }

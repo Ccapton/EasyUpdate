@@ -9,7 +9,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/easypermission" />
             <option value="$PROJECT_DIR$/easyupdate" />
             <option value="$PROJECT_DIR$/md5" />
           </set>
