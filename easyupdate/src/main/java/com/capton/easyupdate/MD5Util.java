@@ -1,4 +1,4 @@
-package com.capton.md5;
+package com.capton.easyupdate;
 
 import java.io.FileInputStream;
 import java.io.IOException;
