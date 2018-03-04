@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EasyUpdateDemo.iml" filepath="$PROJECT_DIR$/EasyUpdateDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easypermission/easypermission.iml" filepath="$PROJECT_DIR$/easypermission/easypermission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyupdate/easyupdate.iml" filepath="$PROJECT_DIR$/easyupdate/easyupdate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/md5/md5.iml" filepath="$PROJECT_DIR$/md5/md5.iml" />
+    </modules>
+  </component>
+</project>
